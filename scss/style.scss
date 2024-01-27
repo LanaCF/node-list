@@ -89,7 +89,8 @@
     margin-bottom: 15px;
   }
 
-  .edit-icon {
+  .edit-icon,
+  .edit-save {
     width: 25px;
     margin-left: 15px;
     cursor: pointer;
@@ -110,4 +111,9 @@
     margin-top: 15px;
     padding: 10px;
     cursor: pointer;
+  }
+
+  .add-error {
+    display: none;
+    color: rgb(180, 72, 72);
   }
